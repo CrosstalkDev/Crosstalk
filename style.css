@@ -10,7 +10,7 @@
   overflow: hidden;
 } */
 
-html, body {
+/*html, body {
   margin: 0;
   padding: 0;
   width: 100vw;
@@ -22,5 +22,9 @@ body {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  background-color: #000; /* fallback color */
+  background-color: #000;
+} */
+
+body {
+    background-color: red !important;
 }
