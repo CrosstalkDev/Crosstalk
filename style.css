@@ -4,7 +4,7 @@ body {
 #background {
   width: 80%;
   min-height: 40cm;
-  margin: auto;
+  margin: none;
   border: solid 2px #000;
   
   background-image: url("PNGs/background.png");
