@@ -13,7 +13,7 @@
   background-repeat: no-repeat;
 } */
 
-
+/*
 body {
   background: #CDCDEF;
   margin: 0; 
@@ -39,4 +39,17 @@ body {
     border-width: 1px;
   }
 }
+*/
 
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("PNGs/background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
