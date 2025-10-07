@@ -1,0 +1,8 @@
+body {
+  background: #CDCDEFF;
+}
+#bg {
+  background-image: url("PNGS/background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
