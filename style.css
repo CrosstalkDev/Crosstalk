@@ -1,4 +1,4 @@
-body {
+/*body {
   margin: 0;
   padding: 0;
   width: 100vw;
@@ -8,4 +8,19 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   overflow: hidden;
+} */
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+body {
+  background-image: url("PNGs/background.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #000; /* fallback color */
 }
