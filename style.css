@@ -1,7 +1,12 @@
 body {
   background: #CDCDEFF;
 }
-#bg {
+#bg-test {
+  width: 80%;
+  min-height: 40cm;
+  margin: auto;
+  border: solid 2px #000;
+  
   background-image: url("PNGS/background.png");
   background-size: cover;
   background-position: center;
