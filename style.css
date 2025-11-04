@@ -13,10 +13,3 @@ body {
   background-color: #e8e097;
 } 
 
-index.html, img {
-  border-radius: 50%;
-}
-img {
-  padding: 5px;
-  width: 150px;
-}
