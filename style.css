@@ -14,8 +14,7 @@ body {
 } 
 
 .highlight {
-  border-radius: 50%;
-  padding: 5px;
-  border-color: #4287f5;
+  float: right;
+  border: 5px solid #4287f5;
 }
   
