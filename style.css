@@ -44,31 +44,31 @@ body {
 .button1 {background-color: #e8e097;
   position: absolute;
   top: 10%;
-  left: 15%;
+  left: 20%;
   transform: translate(-50.5%, -49.8%);
 }
 .button2 {background-color: #e8e097;
   position: absolute;
   top: 10%;
-  left: 30%;
+  left: 35%;
   transform: translate(-50.5%, -49.8%);
 }
 .button3 {background-color: #e8e097;
   position: absolute;
   top: 10%;
-  left: 45%;
+  left: 50%;
   transform: translate(-50.5%, -49.8%);
 }
 .button4 {background-color: #e8e097;
   position: absolute;
   top: 10%;
-  left: 60%;
+  left: 65%;
   transform: translate(-50.5%, -49.8%);
 }
 .button5 {background-color: #e8e097;
   position: absolute;
   top: 10%;
-  left: 75%;
+  left: 80%;
   transform: translate(-50.5%, -49.8%);
 }
 .btn-group {
@@ -79,10 +79,10 @@ body {
   background-color: #e8e097;
   border: none;
   color: white;
-  padding: 15px 32px;
+  padding: 20px 40px;
   text-align: center;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 32px;
   cursor: pointer;
 }
 .btn-group .button:hover {
