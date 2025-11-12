@@ -45,7 +45,6 @@ body {
   display: flex;
   flex-wrap: wrap;
 }
-
 .button {
   background-color: #04AA6D;
   border: none;
@@ -56,6 +55,5 @@ body {
   font-size: 16px;
   cursor: pointer;
 }
-
 .btn-group .button:hover {
   background-color: dodgerblue;
