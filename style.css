@@ -41,17 +41,16 @@ body {
 
 
 /*BUTTON'S GROUP*/
-.button1 {background-color: #04AA6D;} /* Green */
-.button2 {background-color: #008CBA;} /* Blue */
-.button3 {background-color: #f44336;} /* Red */
-.button4 {background-color: #e7e7e7; color: black;} /* Gray */
-.button5 {background-color: #555555;} /* Black */
+.button1 {background-color: #e8e097;}
+.button2 {background-color: #e8e097;}
+.button3 {background-color: #e8e097;}
+.button4 {background-color: #e8e097;}
+.button5 {background-color: #e8e097;}
 .btn-group {
   display: flex;
   flex-wrap: wrap;
 }
 .button {
-  background-color: #04AA6D;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -61,4 +60,4 @@ body {
   cursor: pointer;
 }
 .btn-group .button:hover {
-  background-color: dodgerblue;
+  background-color: #e0d994;
