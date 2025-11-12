@@ -1,3 +1,4 @@
+/*BACKGROUND IMAGE*/
 html, body {
   margin: 0;
   padding: 0;
@@ -13,6 +14,9 @@ body {
   background-color: #e8e097;
 } 
 
+
+
+/*PROFILE TELEPORTER*/
 .highlight {
   float: right;
   border-radius: 50%;
@@ -24,7 +28,9 @@ body {
   padding: 7.5px;
 }
 
-/*index teleporter*/
+
+
+/*INDEX TELEPORTER*/
 .homebutton {
   float: left;
 }
@@ -32,6 +38,9 @@ body {
   padding: 10px;
 }
 
+
+
+/*BUTTON'S GROUP*/
 .btn-group {
   display: flex;
   flex-wrap: wrap;
