@@ -41,11 +41,36 @@ body {
 
 
 /*BUTTON'S GROUP*/
-.button1 {background-color: #e8e097;}
-.button2 {background-color: #e8e097;}
-.button3 {background-color: #e8e097;}
-.button4 {background-color: #e8e097;}
-.button5 {background-color: #e8e097;}
+.button1 {background-color: #e8e097;
+  position: absolute;
+  top: 10%;
+  left: 15%;
+  transform: translate(-50.5%, -49.8%);
+}
+.button2 {background-color: #e8e097;
+  position: absolute;
+  top: 10%;
+  left: 30%;
+  transform: translate(-50.5%, -49.8%);
+}
+.button3 {background-color: #e8e097;
+  position: absolute;
+  top: 10%;
+  left: 45%;
+  transform: translate(-50.5%, -49.8%);
+}
+.button4 {background-color: #e8e097;
+  position: absolute;
+  top: 10%;
+  left: 60%;
+  transform: translate(-50.5%, -49.8%);
+}
+.button5 {background-color: #e8e097;
+  position: absolute;
+  top: 10%;
+  left: 75%;
+  transform: translate(-50.5%, -49.8%);
+}
 .btn-group {
   display: flex;
   flex-wrap: wrap;
