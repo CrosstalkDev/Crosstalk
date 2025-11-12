@@ -51,6 +51,7 @@ body {
   flex-wrap: wrap;
 }
 .button {
+  background-color: #e8e097;
   border: none;
   color: white;
   padding: 15px 32px;
