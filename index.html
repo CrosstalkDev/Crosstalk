@@ -4,32 +4,41 @@
     <title>Crosstalk</title>
     <link rel="icon" type="img/png" href="PNGs/FaviconIcon.png">
     <link rel="stylesheet" href="style.css">
+    <!--
+    <style>
+      .button {
+      background-color: #e8e097;
+      border: none;
+      color: white;
+      padding: 20px 40px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 32px;
+      cursor: pointer;
+      }
+      .button:hover {
+      background-color: #e0d994;
+      }
+      .pressed {
+      background-color: #e0d994;
+      }
+    </style>
+    -->
+
   </head>
   <body>
     <div id="background"></div>
     <a href="index" class="homebutton"><left><img src="PNGs/Logo.png"</a>
     <a href="Profile" class="highlight"><right><img src="PNGs/profileplacehold.png" alt="ProfilePic"></a>
     <!--
-    <style>
-      .dark-mode {
-      background-color: black;
-      color: white;
-      }
-      .light-mode {
-      background-color: white;
-      color: black;
-      }
-    </style>
-    <div id="myBox">Hello</div>
+    <div><button id="HomeButton" class="button">Home</button></div>
     <script>
-      let box = document.getElementById("myBox");
-      let isDarkMode = true;
-      if (isDarkMode) {
-      box.classList.add("dark-mode");
-      box.classList.remove("light-mode");
+      let home = document.getElementById("HomeButton");
+      let isHome = 1;
+      if (isHome) {
+      home.classList.add("pressed");
       } else {
-      box.classList.add("light-mode");
-      box.classList.remove("dark-mode");
+      home.classList.remove("pressed");
       }
     </script>
     -->
