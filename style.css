@@ -43,10 +43,8 @@ body {
 /*BUTTON'S GROUP*/
 div.secretbtn {
   position: fixed;
-  font-size: 25px;
   bottom: 850px;
   right: 1090px;
-  width: 700px;
 }
 .btn {
   display: inline-block;
