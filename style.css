@@ -44,8 +44,8 @@ body {
 div.secretbtn {
   position: fixed;
   font-size: 25px;
-  bottom: 775px;
-  right: 750px;
+  bottom: 850px;
+  right: 1090px;
   width: 700px;
 }
 .btn {
