@@ -1,0 +1,10 @@
+.button {
+  background-color: #e8e097;
+  border: none;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+.btn-group .button:hover {
+  background-color: #e0d994;
+}
