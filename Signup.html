@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<html>
+<body>
+  <div class="head",height="50px;"><h1>Crosstalk</h1></div>
+  <div class="content">
+  <h1>Sign up To Crosstalk</h1><p></p>
+  <div class="logtxt" style="left: -62px;"><label for="usern">Email:</label><br></div>
+  <div class="inputboxes"><input type="text" id="email" name="email" value=""><br></div><p></p>
+  <div class="logtxt"><label for="usern">Username:</label><br></div>
+  <div class="inputboxes"><input type="text" id="usern" name="username" value=""><br></div><p></p>
+  
+  <div class="logtxt" style="right: 40px;"><label for="usern">Date of Birth:</label><br></div>
+  <div class="inputboxes" style="position: relative; right: 0px; "><input type="date" id="birthd" name="birthd" value=""><br><p></p></div>
+  
+  <div class="logtxt"><label for="passw">Password:</label><br></div>
+  <div class="inputboxes"><input type="password" id="passw" name="password" value=""><br></div><p></p>
+  <div class="logtxt" style="right: 7px; font-size: 15px;"><label for="passw">Enter Password again:</label><br></div>
+  <div class="inputboxes"><input type="password" id="passw2" name="password2" value=""><br></div><p></p>
+  <div class="rowofitems" style="left: 3px;">
+    <a style="font-size: 14px;" href="Login.html">Already have an account?</a>&nbsp &nbsp &nbsp<input type="submit" value="Sign up">
+  </div>  
+  </div>
+  
+</body>
+<style>
+  label {display: block;}
+  input[type=text], input[type=password], input[type=date] {
+    margin-top: 0px;
+    border: 3px solid #d4c96c;
+    transition: 0.5s;
+    outline: none;
+    background-color: #e0d994;
+    padding: 3px 10px;
+    text-align: left;
+    width: 150px;
+  }
+  input[type=text]:focus, input[type=password]:focus, input[type=date]:focus {
+    background-color: #d4c96c;
+  }
+</style>
+</html>
