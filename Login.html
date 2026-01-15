@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<html>
+<body>
+  <div class="head",height="50px;"><h1>Crosstalk</h1></div>
+  
+  <div class="content">
+  <h1>Login To Crosstalk</h1>
+  <div class="logtxt"><label for="usern">Username:</label><br></div>
+  <div class="inputboxes"><input type="text" id="usern" name="username" value=""><br></div><p></p>
+  <div class="logtxt"><label for="passw">Password:</label><br></div>
+  <div class="inputboxes"><input type="password" id="passw" name="password" value=""><br></div><p></p>
+  <div class="rowofitems">
+    <a style="font-size: 14px;">forgot password?</a>&nbsp &nbsp &nbsp<input type="submit" value="Log in">
+  </div>
+  <div style="text-align: center; position: relative; right: 7px; margin-top: 10px; font-size: 14px;"><a href="Signup.html">New to Crosstalk? Sign-up</a></div>
+  </div>
+</body>
+<style>
+  label {display: block;}
+  input[type=text], input[type=password], input[type=date] {
+    margin-top: 0px;
+    border: 3px solid #d4c96c;
+    transition: 0.5s;
+    outline: none;
+    background-color: #e0d994;
+    color: #000000;
+  }
+  input[type=text]:focus, input[type=password]:focus, input[type=date]:focus {
+    background-color: #d4c96c;
+    color: #ffffff;
+  }
+</style>
+</html>
