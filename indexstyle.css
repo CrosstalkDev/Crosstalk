@@ -40,3 +40,30 @@ nav ul {
   background-color: #d4c96c;
   padding: 0;
 }
+
+/*Login + Signup*/
+h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+.inputboxes {
+  text-align: center;
+}
+.rowofitems {
+  text-align: center;
+  position: relative;
+  right: 5px;
+}
+.logtxt {
+  text-align: center;
+  position: relative;
+  right: 47px
+}
+.logtxt br { /*gets rid of any line breaks*/
+  display: none; 
+}
+.sumbit_button {
+  text-align: center;
+  position: relative;
+  left: 67px
+}
