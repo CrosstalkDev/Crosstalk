@@ -1,0 +1,25 @@
+body {
+  background-color: #e8e097;
+  font-family: "Sans-Serif", sans-serif;
+}
+
+.logbutton {
+  background-color:#e8e097;
+  padding:10px 20px;
+  text-decoration:none;
+  text-align:center;
+  cursor:pointer;
+  /* Rounded Corners */
+  border: 5px solid #5C4033;
+  border-radius: 12px;
+}
+.logbutton:hover {
+  background-color:#f1f1f1;
+}
+
+header {
+  background-color: #d4c96c;
+  text-align: center;
+  margin: 0;
+  position: relative;
+}
