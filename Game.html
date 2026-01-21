@@ -1,156 +1,31 @@
 <!DOCTYPE html>
 <html> 
-<head>
+  <head>
     <title>Crosstalk</title>
     <link rel="icon" type="img/png" href="PNGs/FaviconIcon.png">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <div class="header"><h1>Language Clicker</h1></div>
-  <div id="background"></div>
-  <a href="index" class="homebutton"><left><img src="PNGs/Logo.png"></a>  
-    
-  <div class="ShowMoney">
-  <p>Money: <span id="money">0</span></p>
-  <button onclick="clicked()">Click Me!</button>
-  </div>
-  
-  <div class="ShowMPC">
-  <p>Every Click is worth: <span id="mpc">1</span></p>
-  <button onclick="upgradempc()">Upgrade Money Per Click (Price: <span id="mpcPrice">10</span> money)</button>
-  </div>
-  
-  <div class="ShowMPS">
-  <p>Every Second, You earn: <span id="mps">0</span></p>
-  <button onclick="upgrademps()">Upgrade Money Per Second (Price: <span id="mpsPrice">50</span> money)</button>
-  </div>
-  
-  <div class="Leaderscore"> 
-  <p>Your Highest Money Earings are <span id="highestscore">[n/a]</span> <!--earned by <span id="bestname">[n/a]</span>--></p>
-  </div> 
-  
-  <!--<div class="nametag">
-    <form id="dataForm">
-      <label for="playerName">Name:</label>
-      <input type="text" required id="playerName" />
-      <br>
-      <button type="submit">Enter</button>
-    </form>
-  </div> -->
-  
-   <style>
-    div.Leaderscore {
-      position: fixed;
-      font-size: 25px;
-      bottom: 775px;
-      right: 750px;
-      width: 700px;
-    }
-    div.header {
-      position: fixed;
-      font-size: 35px;
-      bottom: 637px;
-      right: 600px;
-      width: 700px;
-    }
-    div.ShowMoney {
-      position: fixed;
-      font-size: 20px;
-      bottom: 600px;
-      right: 900px;
-      width: 300px;
-    }
-    div.ShowMPC {
-      position: fixed;
-      bottom: 500px;
-      font-size: 20px;
-      right: 900px;
-      width: 300px;
-    }
-    div.ShowMPS {
-      position: fixed;
-      font-size: 20px;
-      bottom: 400px;
-      right: 900px;
-      width: 300px;
-    }
-  </style>
-  <script>
-    let mdud = "peak";
-    let money = 0;
-    let mpc = 1;
-    let mpcPrice = 10;
-    let mps = 0;
-    let mpsPrice = 50;
-    /*let playerName = "";
-    let bestname = localStorage.getItem("highestname") || ""; */
-    let highestmoney = Number(localStorage.getItem("highestmoney")) || 0;
-    
-    const moneyDisplay = document.getElementById("money");
-    const mpcDisplay = document.getElementById("mpc");
-    const mpcPriceDisplay = document.getElementById("mpcPrice");
-    const mpsDisplay = document.getElementById("mps");
-    const mpsPriceDisplay = document.getElementById("mpsPrice");
-    
-    document.getElementById("highestscore").innerHTML = highestmoney;
-   /* document.getElementById("bestname").innerHTML = bestname;
-    document.getElementById("playerName").value = bestname; */
-
-
-    /* document.getElementById("dataForm").addEventListener("submit", function(event) {
-      event.preventDefault();
-      playerName = document.getElementById("playerName").value;
-      displayupdate();
-    }); */
-
-
-    function displayupdate() {
-      moneyDisplay.textContent = money;
-      mpcDisplay.textContent = mpc;
-      mpcPriceDisplay.textContent = mpcPrice;
-      mpsDisplay.textContent = mps;
-      mpsPriceDisplay.textContent = mpsPrice;
-      document.getElementById("highestscore").innerHTML = highestmoney;
-      if (money > highestmoney) {
-        highestmoney = money;
-        localStorage.setItem("highestmoney", highestmoney);
-        /*localStorage.setItem("highestname", playerName);*/
-        document.getElementById("highestscore").innerHTML = highestmoney;
-        /*document.getElementById("bestname").innerHTML = playerName;
-        document.getElementById("playerName").value = playerName;*/
-      }
-    } 
-    function clicked() {
-      money = money + mpc;
-      displayupdate();
-    }
-    function upgradempc() {
-      if (money >= mpcPrice) { 
-        money = money - mpcPrice;
-        mpc = mpc + 1;
-        mpcPrice = (10 * (1.07**mpc));
-        mpcPrice = mpcPrice.toFixed(0)
-        displayupdate();
-      } else {
-        alert(" No money :( ");
-      }
-    }
-    function upgrademps() {
-      if (money >= mpsPrice) {
-        money = money - mpsPrice;
-        mps = mps + 1;
-        mpsPrice = (50 * (1.07**mps));
-        mpsPrice = mpsPrice.toFixed(0)
-        displayupdate();
-      } else {
-        alert(" No money :( ");
-      }
-    }
-    setInterval(function() {
-          money = money + mps;
-          displayupdate();
-    }, 750);
-    displayupdate();
-  </script>
-</body>
+    <link rel="stylesheet" href="clicker.css" />
+    <link rel="stylesheet" href="sizes.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="head",height="50px;"><h1>Crosstalk</h1></div>
+      <div class="content">
+        <a href="Home.html" class="homebutton" style="margin-bottom: 30px; font-weight:800; font-size:20px; color:#000000; padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px;">Home</a> 
+        <p class="Leaderscore" style="margin-top: 30px">Your Highest Money Earings are <span id="highestscore">[n/a]</span></p>
+        <div class="lngheader"><h1>Language Clicker</h1></div>
+        <div id="background"></div>
+        <div class="ShowMoney">
+          <p>Money: <span id="money">0</span></p>
+          <button onclick="clicked()">Click Me!</button>
+        </div>
+        <div class="ShowMPC">
+          <p>Every Click is worth: <span id="mpc">1</span></p>
+          <button onclick="upgradempc()">Upgrade Money Per Click (Price: <span id="mpcPrice">10</span> money)</button>
+        </div>
+        <div class="ShowMPS"><p>Every Second, You earn: <span id="mps">0</span></p></div>
+        <button onclick="upgrademps()">Upgrade Money Per Second (Price: <span id="mpsPrice">50</span> money)</button>
+      </div>
+    </div>
+    <script src="langclicker.js"></script>
+  </body>
 </html>
