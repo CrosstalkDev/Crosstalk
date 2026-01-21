@@ -1,0 +1,58 @@
+/*Basic Scaling UI*/
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #e8e097;
+  font-family: "Sans-Serif", sans-serif;
+} 
+.homebutton { 
+  /* Rounded Corners */
+  border: 5px solid #5C4033;
+  border-radius: 12px;
+  /*Other Button settings*/
+  background-color:#e8e097;
+  text-decoration:none;
+  cursor:pointer;
+}
+.homebutton:hover {
+  background-color:#f1f1f1;
+}
+.container {
+  grid-column: col-start / span 12;
+  display: grid;
+  grid-template-columns: repeat(12, [col-start] 1fr);
+  gap: 15px;
+}
+.content {
+  grid-column: col-start / span 12;
+  border: 10px solid #5C4033;
+  background-color: #e8e097;
+  text-align: center;
+}
+.head {
+  grid-column: col-start / span 12;
+  text-align: center;
+  color: #ffffff;
+  font-size: 30px;
+  border: 0px;
+  background-color: #d4c96c;
+  padding: 0;
+}
+/*Positions*/
+div.Leaderscore {  
+  text-align: center;
+}
+div.ShowMoney, 
+div.ShowMPS, 
+div.lngheader, 
+div.ShowMPC {
+  text-align: center;
+  position: relative; 
+}
+div.lngheader {
+  font-size: 25px;
+}
+div.ShowMPC {
+  padding: 15px;
+}
