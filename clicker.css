@@ -56,3 +56,91 @@ div.lngheader {
 div.ShowMPC {
   padding: 15px;
 }
+
+/*Screen Scaling*/
+body{
+  @media (min-width: 251px) {
+    .button {
+  	  font-size: 5.34vw;
+    }	
+    .content {
+  	  height: 600px;
+      padding: 25px;
+    }
+    nav {
+      grid-column: col-start / span 12;
+    }
+  }
+  @media (min-width: 576px) {
+    .button {
+  	  font-size: 5vw;
+    }	
+    .content {
+  	  height: 600px;
+      padding: 25px;
+    }
+    nav {
+      grid-column: col-start / span 12;
+    }
+  }
+  @media (min-width: 837px) {
+    .button {
+  	  font-size: 4.67vw;
+    }	
+    .content {
+  	  height: 600px;
+      padding: 25px;
+    }
+    nav {
+      grid-column: col-start / span 12;
+    }
+  }
+  @media (min-width: 999px) {
+   .button {
+     	font-size: 4vw;
+   }	
+   .content {
+    	height: 600px;
+      padding: 25px;
+    }
+    nav {
+      grid-column: col-start / span 12;
+    }
+  }
+  @media (min-width: 1200px) {
+   .button {
+    	font-size: 3.5vw;
+    }	
+    .content {
+  	  height: 600px;
+      padding: 25px;
+    }
+    nav {
+      grid-column: 2 / span 10;
+    }
+  }
+  @media (min-width: 1450px) {
+    .button {
+  	  font-size: 3vw;
+    }	
+    .content {
+  	  height: 600px;
+      padding: 25px;
+    }
+    nav {
+      grid-column: 2 / span 10;
+    }
+  }
+  @media (min-width: 1900px) {
+    .button {
+  	  font-size: 2vw;
+    }	
+    .content {
+  	  height: 600px;
+      padding: 25px;
+    }
+    nav {
+      grid-column: 2 / span 10;
+    }
+  }
+}
