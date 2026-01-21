@@ -17,6 +17,26 @@ body {
   background-color: #e8e097;
   text-align: center;
 }
+/*PROFILE TELEPORTER*/
+.highlight {
+  float: right;
+  border-radius: 50%;
+}
+.highlight img {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  padding: 7.5px;
+}
+
+
+/*INDEX TELEPORTER*/
+.homebutton {
+  float: left;
+}
+.homebutton img {
+  padding: 10px;
+}
 nav {
   grid-template-columns: repeat(12, [col-start] 1fr);
 }
@@ -31,6 +51,8 @@ nav ul {
   text-align: center;
   width: 100%;
 }
+
+/* header */
 .head {
   grid-column: col-start / span 12;
   text-align: center;
@@ -39,7 +61,26 @@ nav ul {
   border: 0px;
   background-color: #d4c96c;
   padding: 0;
+  position: relative;
 }
+
+/* corner links */
+.corner-link {
+  position: absolute;
+  top: 10px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  text-decoration: none;
+  border: none;
+}
+.corner-left {
+  left: 20px;
+}
+.corner-right {
+  right: 20px;
+}
+
 /*Login + Signup*/
 h1 {
   text-align: center;
