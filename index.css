@@ -6,14 +6,6 @@ body {
   background-position: center 0vh;
   background-size: 50vw 100vh;
 }
-/*body {
-  background-color: #050507;
-  font-family: "Sans-Serif", sans-serif;
-  background-image: url("PNGs/zaworldo.png");
-  background-repeat: no-repeat;
-  background-position: center 0vh;
-  background-size: 50vw 100vh;
-}*/
 
 .logbutton {
   background-color:#e8e097;
@@ -34,4 +26,5 @@ header {
   text-align: center;
   margin: 0;
   position: relative;
+  margin-top:25vh;
 }
