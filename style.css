@@ -135,6 +135,13 @@ h1 {
   transform: translateY(20px);  /*makes the dropdown look like its moving*/
   opacity: 0;
   pointer-events: none;
+  transition: 0.5s;
+}
+
+.ProfileBox.show .dropdown {
+  transform: translateY(0);
+  opacity: 1;
+  pointer-events: auto;
 }
 
 .ProfileBox .dropdown a {
