@@ -177,6 +177,11 @@ h1 {
   z-index: 100;
   overflow: hidden;
   transform: translateY(calc(-100% - 35px));
+  transition: 0.5s ease;
+}
+
+.alert-box.show {
+  transform: translateY(0);
 }
 
 .alert {
